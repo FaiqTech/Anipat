@@ -321,6 +321,10 @@
   position: absolute;
   left: 70px;
   bottom: 0px;
+  transition: all 0.3s;
+}
+#main .members .member-info:hover {
+  bottom: 4px;
 }
 #main .members .member-info-name {
   font-weight: 700;

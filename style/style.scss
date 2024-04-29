@@ -331,6 +331,10 @@
         position: absolute;
         left: 70px;
         bottom: 0px;
+        transition: all 0.3s;
+        &:hover {
+          bottom: 4px;
+        }
         &-name {
           font-weight: 700;
           color: #222222;
